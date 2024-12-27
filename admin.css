@@ -1,0 +1,48 @@
+body{
+  background-color: lavenderblush;
+ 
+}
+h2{
+   color: black;
+    text-align: center;
+}
+table{
+  background-color:lavender;
+  color:black;
+}
+.update{
+  background-color:lavenderblush ;
+  color: black;
+  border: solid 2px;
+  border-radius: 5px;
+  width: 100%;
+}
+.update:hover{
+  background-color: lavender;
+}
+.delete{
+  background-color:lavenderblush;
+  color: black;
+  border: solid 2px;
+  border-radius: 5px;
+  width: 100%;
+
+
+}
+.delete:hover{
+  background-color: lavender;
+}
+
+.bnt{
+width: 10%;
+padding-left: 8px 10px;
+background-color: lavender;
+cursor: pointer;
+border-radius: 100px;
+outline: none;
+margin-left: 90%;
+}
+.bnt:hover{
+background-color: lavenderblush;
+}
+

@@ -1,0 +1,104 @@
+    body {
+        background-color: white;
+        overflow-x: hidden;
+
+    }
+    .info{
+       text-align: center;
+       height: 250px;
+      font-size: larger;
+
+    }
+
+    h2{
+        padding-left: 5%;
+    }
+    
+#containers{
+    margin-left: 10%;
+    margin-top: 10%;
+   
+  
+}
+    .mail {
+        margin-top: 48px;
+        margin-left: 28%;
+        text-align: center;
+        background-color: gainsboro;
+        border: solid 2px;
+        border-radius: 10px;
+        padding-top: 2%;
+        width: 45%;
+       font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    input {
+        outline: none;
+        font-size: large;
+        width: 70%;
+        text-align: center;
+        border-radius: 10px;
+
+    }
+    input:hover{
+        padding-left: 3%;
+    }
+    textarea{
+        border-radius: 20px;
+    }
+    textarea:hover{
+    padding-left: 3%;
+    }
+    .box{
+        height: 290px;
+        width: 1000px;
+        margin-left: 35%;
+        margin-top: -20%;
+       
+    }
+    .boxs{
+      
+        margin-left: 15%;
+        height: 250px;
+        width: 250px;
+    }
+
+    .btn {
+        background-color: gray;
+        cursor: pointer;
+        border: solid 2px;
+        width: 35%;
+        color: black;
+
+    }
+  .btn:hover, .btn:focus, .btn:active {
+        background-color: black;
+        color: white;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+   
+    @media (max-width:600px) {
+        .mail {
+            width: 85%;
+            padding: 20px;
+            font-size: smaller;
+            margin-left: 65%;
+
+        }
+
+        textarea {
+            min-height: 80px;
+            font-size: 10%;
+           text-align: justify;
+        }
+
+        .boxs{
+            margin-left: 65%;
+            margin-top: -55%;
+        }
+
+ }
+ 

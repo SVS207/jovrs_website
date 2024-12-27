@@ -1,12 +1,15 @@
+
 {
-  "name": "jovrs_website",
-  "version": "1.0.0",
-  "description": "The website for jovrs group",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
-}
+    "name": "jovrs_website",
+    "version": "1.0.0",
+    "description": "The website for jovrs group",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+  
+ 
